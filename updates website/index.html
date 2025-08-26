@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Divinity Games - Updates</title>
+    <link rel="stylesheet" href="app.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+        }
+
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 50px;
+        }
+
+        .hero {
+            background-color: #ccc;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .update-section {
+            padding: 30px;
+            background-color: #f4f4f4;
+            border-radius: 10px;
+        }
+
+        .concept-art {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .concept-art img {
+            max-width: 300px;
+            border-radius: 8px;
+        }
+
+        audio {
+            display: block;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body class="pc-view">
+
+    <!-- Header Section -->
+<header>
+    <nav>
+        <img src="1.png" alt="Divinity Games Logo" style="max-width:200px; height:auto;">
+        <h1>Divinity Games</h1>
+        <ul>
+            <li><a href="https://laxso.github.io/Divinity-Games/" target="_blank">Home</a></li>
+            <li><a href="updates.html">Updates</a></li>
+        </ul>
+        <button id="toggleView" onclick="toggleViewMode()">Switch to Phone View</button>
+    </nav>
+</header>
+
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <h2>Hey! You’ve reached the updates page!</h2>
+        </section>
+
+        <!-- Update Section -->
+        <section class="update-section">
+            <h2>Progress Update 0.1</h2>
+            <p>
+                This is where I’ll be sharing occasional updates on the game. As much as I’d love to release it by winter, that’s no longer realistic. We’ve decided to push things back a bit. Everyone has been working incredibly hard, and I gave the team the summer off to recharge. The project is still moving forward and very much possible with our current team, but since we’re missing a few people with certain skill sets, progress will naturally take a little longer.
+            </p>
+            <p>
+                As for the script, we’re sitting at <strong>65,248 words (about 271 pages)</strong>. It’s already been through heavy editing, but of course it will need another round before the final release. We’re moving into Chapter 15 next, though some chapters are much longer than others (looking at you, Chapter 14). In fact, that one will likely be split into four chapters once the game comes out.
+            </p>
+            <p>
+                I know you all want to see some concept art, so here are a few sketches along with a 3D-rendered background before it’s drawn.
+            </p>
+<!-- Concept Art -->
+<div style="text-align: center; margin-bottom: 30px;">
+    <img src="emi.png" alt="Emi Concept Art" style="max-width:600px; width:100%; border-radius:8px;">
+</div>
+
+<div class="concept-art">
+    <img src="emi2.png" alt="Emi Concept Art 2" style="max-width:280px;">
+    <img src="aiko.png" alt="Aiko Concept Art" style="max-width:280px;">
+    <img src="MC.png" alt="MC Concept Art" style="max-width:280px;">
+</div>
+
+<!-- Background Render (full width) -->
+<div style="margin-top: 30px; text-align: center;">
+    <img src="background.png" alt="Clubroom Background Render" style="max-width: 100%; border-radius: 8px;">
+</div>
+
+            <p>
+                And yes, I’ve also got a music sample for you! Of course, it’s watermarked, as is the art, but keep in mind these are early samples. Expect small changes and polish before the final release. This will probably be the last preview I share until the trailer drops.
+            </p>
+
+            <!-- Music Sample -->
+            <audio controls>
+                <source src="2025-08-26 13-13-45.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <ul>
+                <li><strong>Morning Classroom Slow</strong></li>
+                <li><strong>Calm Evening</strong></li>
+                <li><strong>Deep Monologue</strong></li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Divinity Games.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
+
