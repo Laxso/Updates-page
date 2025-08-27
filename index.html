@@ -78,17 +78,94 @@
 </head>
 <body class="pc-view">
 
-    <!-- Header Section -->
+<!-- Header Section -->
 <header>
     <nav>
+        <!-- Logo -->
         <img src="1.png" alt="Divinity Games Logo" style="max-width:200px; height:auto;">
-        <h1>Divinity Games</h1>
-        <ul>
-            <li><a href="https://laxso.github.io/Divinity-Games/" target="_blank">Home</a></li>  
+
+        <!-- Nav Buttons -->
+        <ul style="list-style:none; display:flex; gap:10px; padding:0; margin:0;">
+            <li>
+                <a href="https://laxso.github.io/Divinity-Games/" target="_blank" style="text-decoration:none;">
+                    <button class="bounce-item" style="
+                        background: linear-gradient(45deg, #ff1971, #ad16a5, #51107c, #120447);
+                        color: white;
+                        font-size: 14px;
+                        font-weight: bold;
+                        padding: 10px 18px;
+                        border: none;
+                        border-radius: 20px;
+                        cursor: pointer;
+                        box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+                    ">Home</button>
+                </a>
+            </li>
+            <li>
+                <a href="#games" style="text-decoration:none;">
+                    <button class="bounce-item" style="
+                        background: linear-gradient(45deg, #ff1971, #ad16a5, #51107c, #120447);
+                        color: white;
+                        font-size: 14px;
+                        font-weight: bold;
+                        padding: 10px 18px;
+                        border: none;
+                        border-radius: 20px;
+                        cursor: pointer;
+                        box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+                    ">Games</button>
+                </a>
+            </li>
+            <li>
+                <a href="https://laxso.github.io/Updates-page/" target="_blank" style="text-decoration:none;">
+                    <button class="bounce-item" style="
+                        background: linear-gradient(45deg, #ff1971, #ad16a5, #51107c, #120447);
+                        color: white;
+                        font-size: 14px;
+                        font-weight: bold;
+                        padding: 10px 18px;
+                        border: none;
+                        border-radius: 20px;
+                        cursor: pointer;
+                        box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+                    ">Progress Updates</button>
+                </a>
+            </li>
+            <li>
+                <a href="https://laxso.github.io/Join-the-team/" target="_blank" style="text-decoration:none;">
+                    <button class="bounce-item" style="
+                        background: linear-gradient(45deg, #ff1971, #ad16a5, #51107c, #120447);
+                        color: white;
+                        font-size: 14px;
+                        font-weight: bold;
+                        padding: 10px 18px;
+                        border: none;
+                        border-radius: 20px;
+                        cursor: pointer;
+                        box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+                    ">Join the Team</button>
+                </a>
+            </li>
         </ul>
-        <button id="toggleView" onclick="toggleViewMode()">Switch to Phone View</button>
+
+        <!-- Toggle View Button -->
+        <button id="toggleView" class="bounce-item" onclick="toggleViewMode()" 
+            style="
+                background: linear-gradient(45deg, #ff1971, #ad16a5, #51107c, #120447);
+                color: white;
+                font-size: 14px;
+                font-weight: bold;
+                padding: 12px 20px;
+                border: none;
+                border-radius: 25px;
+                cursor: pointer;
+                box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+            ">
+            Switch to Phone View
+        </button>
     </nav>
 </header>
+
 
 
     <!-- Main Content -->
@@ -152,6 +229,5 @@
     <script src="app.js"></script>
 </body>
 </html>
-
 
 
